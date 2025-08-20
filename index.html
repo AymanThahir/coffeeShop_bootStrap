@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header><!-- 1.parentContainer -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top py-2">
+            <div class="container">
+                <!-- Left side icon / logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="./assets/images/logo.png" class="h-auto w-25" alt="Logo">
+                </a>
+
+                <!-- Toggler button (hamburger on mobile) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible Nav Links -->
+                <div class="collapse navbar-collapse justify-content-end fs-5" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Galary</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero"><!-- 2.component -->
+            <div class="container"><!-- 3.componentContainer -->
+                <div class="heroBody"><!-- 4.row -->
+                    <div class="row">
+                        <!-- 5.column -->
+                        <div
+                            class="col-12 col-md-6 text-center text-md-start d-flex flex-column justify-content-center align-items-center">
+                            <!-- 6.subColumn -->
+                            <h1 class="text-center">Coffee Heaven</h1>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nulla,
+                                quae animi placeat vel ex.</p>
+                            <button type="button" class="btn px-4 btn-primary-custom rounded-0 w-25">
+                                About Us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main><!-- 1.parentContainer -->
+        <section class="ourMenu"><!-- 2.component -->
+            <div class="container"><!-- 3.componentContainer -->
+                <div class="row align-items-center"><!-- 4.row -->
+                    <div class="col-6 col-sm-12 col-md-12 col-lg-6"><!-- 5.column -->
+                        <div class="imageBox"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/about-img.jpg" class="img-fluid"
+                                    alt="Women Drinking Coffee"></figure>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-12 col-md-12 col-lg-6 pt-5"><!-- 5.column -->
+                        <div class="ourMenuBox d-flex flex-column align-items-start justify-content-center pt-5">
+                            <!-- 6.subColumn -->
+                            <h2>A Cup Of Coffee Can Complete Your Day</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias eaque eius
+                                nemo cupiditate iure quidem, sapiente blanditiis asperiores natus maxime corrupti
+                                provident.</p>
+                            <button type="button" class="btn-primary-custom py-2 px-4">Our Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facility py-3"> <!-- 2.component -->
+            <div class="container"> <!-- 3.componentContainer -->
+                <div class="row"> <!-- 4.row 1 -->
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column justify-content-center align-items-center py-3">
+                        <!-- 5.column 1 -->
+                        <img src="./assets/images/heading-img.jpg" class="h-25 w-auto mb-3" alt="Title Image">
+                        <h2 class="fs-1 fw-bold">Our Facility</h2>
+                    </div>
+                </div>
+                <div class="row"><!-- 4.row 2 -->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 yellow"> <!-- 5.column 1 -->
+                        <div
+                            class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
+                            <img src="./assets/images/icon-1.png" class="w-50 h-auto" alt="Varieties of Coffee">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Varieties of Coffee</h5>
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Saepe,
+                                    adipisci!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 blue"> <!-- 5.column 2 -->
+                        <div
+                            class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
+                            <img src="./assets/images/icon-2.png" class="w-50 h-auto" alt="Varieties of Coffee">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Varieties of Coffee</h5>
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Saepe,
+                                    adipisci!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 purple"> <!-- 5.column 3 -->
+                        <div
+                            class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
+                            <img src="./assets/images/icon-3.png" class="w-50 h-auto" alt="Varieties of Coffee">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Varieties of Coffee</h5>
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Saepe,
+                                    adipisci!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 green"> <!-- 5.column 4 -->
+                        <div
+                            class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
+                            <img src="./assets/images/icon-4.png" class="w-50 h-auto" alt="Varieties of Coffee">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="card-title">Varieties of Coffee</h5>
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Saepe,
+                                    adipisci!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular"><!-- 2.component -->
+            <div class="container"><!-- 3.componentContainer -->
+                <div class="row"><!-- 4.row -->
+                    <div class="popularBlock d-flex flex-column align-items-center justify-content-center">
+                        <!-- 5.column -->
+                        <img src="./assets/images/heading-img.jpg" class="h-25 w-auto mb-3" alt="Title Image">
+                        <h2>Popular Menu</h2>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuBox text-center">
+                                <figure><img src="./assets/images/menu-1.png" classalt=""></figure>
+                                <h3>Love You Coffee</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuBox text-center">
+                                <figure><img src="./assets/images/menu-2.png" alt=""></figure>
+                                <h3>Cappuccino</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuBox text-center">
+                                <figure><img src="./assets/images/menu-3.png" alt=""></figure>
+                                <h3>Mocha Coffee</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuBox text-center">
+                                <figure><img src="./assets/images/menu-4.png" alt=""></figure>
+                                <h3>Frappuccino</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuBox text-center">
+                                <figure><img src="./assets/images/menu-5.png" alt=""></figure>
+                                <h3>Black Coffee</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="menuBox text-center">
+                                <figure><img src="./assets/images/menu-6.png" alt=""></figure>
+                                <h3>Love Heart Coffee</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="galary"><!-- 2.component -->
+            <div class="container"><!-- 3.componentContainer -->
+                <div class="row"><!-- 4.row -->
+                    <div class="d-flex flex-column align-items-center justify-content-center"><!-- 6.subColumn -->
+                        <img src="./assets/images/heading-img.jpg" class="h-25 w-auto mb-3" alt="Title Image">
+                        <h2>Our Galary</h2>
+                    </div>
+                </div>
+                <div class="row"><!-- 4.row -->
+                    <div class="tasteBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="tasteBox"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/gallery-1.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="cupBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="cupBox"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/gallery-2.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="cakeBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="cakeBox"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/gallery-3.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="beanBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="beanBox"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/gallery-4.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="smileBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="smileBox"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/gallery-5.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="cubeBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="cubeBox"><!-- 6.subColumn -->
+                            </figure><img src="./assets/images/gallery-6.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team"><!-- 2.component -->
+            <div class="container"><!-- 3.componentContainer -->
+                <div class="row"><!-- 4.row -->
+                    <div class="d-flex flex-column align-items-center justify-content-center"><!-- 6.subColumn -->
+                        <img src="./assets/images/heading-img.jpg" class="h-25 w-auto mb-3" alt="Title Image">
+                        <h2>Our Team</h2>
+                    </div>
+                </div>
+                <div class="row"><!-- 4.row -->
+                    <div class="greyBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="greyBox text-center"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/our-team-1.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="chocolateBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="chocolateBox text-center"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/our-team-2.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="blueBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="blueBox text-center"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/our-team-3.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="blackBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="blackBox text-center"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/our-team-4.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="greenBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="greenBox text-center"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/our-team-5.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="whiteBlock col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column -->
+                        <div class="whiteBox text-center"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/our-team-6.jpg" class="h-100 w-100 mb-3" alt=""></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer><!-- 1.parentContainer -->
+        <div class="contact"><!-- 2.component -->
+            <div class="container"><!-- 3.componentContainer -->
+                <div class="row"><!-- 4.row -->
+                    <div class="d-flex flex-column align-items-center justify-content-center"><!-- 6.subColumn -->
+                        <img src="./assets/images/heading-img.jpg" class="h-25 w-auto mb-3" alt="">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+
+                <div class="row align-items-center"><!-- 4.row -->
+                    <div class="col-6 col-sm-12 col-md-6 col-lg-6"><!-- 5.column -->
+                        <img src="./assets/images/contact-img (1).jpg" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-6 col-sm-12 col-md-6 col-lg-6"><!-- 5.column -->
+                        <div
+                            class="BookBox d-flex flex-column align-items-center justify-content-center border border-dark text-center">
+                            <form action="" method="get" class="bookForm p-5 rounded-0 w-100">
+                                <p class="h2 mb-3 fw-bold text-center">Book A Table</p>
+                                <input type="text" class="form-control mb-3 border border-dark rounded-0"
+                                    placeholder="Enter Your Name">
+                                <input type="number" class="form-control mb-3 border border-dark rounded-0"
+                                    placeholder="Enter Your Number">
+                                <input type="number" class="form-control mb-3 border border-dark rounded-0"
+                                    placeholder="How Many Guests">
+                                <button type="submit" class="btn btn-primary-custom rounded-0">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contactIcon"><!-- 2.component -->
+            <div class="container"><!-- 3.componentContainer -->
+                <div class="row"><!-- 4.row -->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3"><!-- 5.column -->
+                        <div class="text-center"><!-- 6.subColumn -->
+                            <div class="emailcardhead pb-3">
+                                <i
+                                    class="fa-solid fa-envelope bg-primary-custom text-white p-3 rounded-circle fs-3"></i>
+                            </div>
+                            <div class="emailcardhead">
+                                <p>Our Email</p>
+                                <p>shaakshi@gmail.com</p>
+                                <p>hyhy@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3"><!-- 5.column -->
+                        <div class="text-center"><!-- 6.subColumn -->
+                            <div class="timecardhead pb-3">
+                                <i class="fa-solid fa-clock bg-primary-custom text-white p-3 rounded-circle fs-3"></i>
+                            </div>
+                            <div class="timecardmain">
+                                <p>Opening Hours</p>
+                                <p>07:00am to 09:00pm</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3"><!-- 5.column -->
+                        <div class="text-center"><!-- 6.subColumn -->
+                            <div class="locationcardhead pb-3">
+                                <i
+                                    class="fa-solid fa-location-dot bg-primary-custom text-white p-3 rounded-circle fs-3"></i>
+                            </div>
+                            <div class="locationcardmain">
+                                <p>Shop Location</p>
+                                <p>Mumbai, India- 400101</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3"><!-- 5.column -->
+                        <div class="text-center"><!-- 6.subColumn -->
+                            <div class="numbercardhead pb-3">
+                                <i class="fa-solid fa-phone bg-primary-custom text-white p-3 rounded-circle fs-3"></i>
+                            </div>
+                            <div class="numbercardmain">
+                                <p>Our Number</p>
+                                <p>+91-123-456-7890</p>
+                                <p>+91-111-222-3333</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyrightBody"><!-- 4.row -->
+                    <div class="copyrightBlock border-top border-dark border-2"><!-- 5.column -->
+                        <div class="copyrightBox text-center pt-3"><!-- 6.subColumn -->
+                            <p>© Copyright @ 2022 By <span>Mr. Web Designer</span> | All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
